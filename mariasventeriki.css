@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.header {
+    width: 1500px;
+    height: 50px;
+    background-color: black;
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    position: fixed;
+}
+
+.inner_header {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.logo_container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1 {
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: '_Montserrat_';
+    font-size: 32px;
+
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    padding: 0px 20px;
+    float: left;
+}
+
+.navigation a: last-child {
+    padding-right: 0;
+}
+
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: '_Montserrat_';
+    font-size: 16px;
+
+}
+
+img {
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.h1 {
+    padding: 40px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.aboutme {
+    padding: 40px;
+    text-align: center;
+    color: white;
+
+}
+
+.paragrapham {
+    color: white;
+    text-align: center;
+    font-family: '_Montserrat_';
+    font-size: 20px;
+    padding: 40px;
+
+}
+
+.portfolio {
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+.paragraphp {
+    color: white;
+    text-align: center;
+    font-family: '_Montserrat_';
+    font-size: 20px;
+    padding: 40px;
+}
+
+.contact {
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid yellow;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: green;
+}
+
+
+.container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column,
+    {}
+
+input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+}
+
+
+
+.body {
+    background-image: url("dark.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+    {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2em;
+
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.video{
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
